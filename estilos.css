@@ -1,42 +1,61 @@
 
 
-#orson{
-    width: 90px;
-    height: 150px;
-    margin: 30 0 0 20;
-    display: inline-block;
-    
+.primero    {
+    width: 70%;
+    position: relative;
 }
 
-.left   {
+.texto1 {
     float: left;
-    width: 50%;
+    width: 70%;
     font-size: 20px;
     text-align: justify;
-    
+    text-decoration: wavy ;
 }
 
-.firma1 {
+.firmao {
+    position: absolute;
     display: inline-block;
     font-size: 20px;
-    margin: 0 0 0 60;
+    left: 25%;
+    top: 130px;
+}
+
+
+#orson{
+    width: 100px;
+    height: 150px;
+    margin: 30 0 0 0;
+    
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 200px;
 }
 
 #principito {
     float: left;
     width: 150px;
     height: 160px;
-    margin: 50 40 0 10 ;
+    margin: 40 40 0 10 ;
+    padding-right: 20px;
 }
 
 .abajo  {
-   width: 60%;
-   font-size: 21px;
+   width: 63%;
+   font-size: 22px;
    text-align: justify;
+   
 
 }
 
 .firma2 {
-    margin: 0 0 0 450;
-    font-size: 20px;
+    margin: 0 0 0 470;
+    font-size: 22px;
+}
+
+.segundo    {
+    position: absolute;
+    top: 200px;
+    margin-left: 10px;
 }
